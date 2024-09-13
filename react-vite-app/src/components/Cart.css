@@ -1,0 +1,109 @@
+.cart {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+  text-align: center;
+  color: #c71585;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.cart-item-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-actions button {
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-item-actions button:hover {
+  background-color: #c71585;
+  color: white;
+}
+
+.cart-item-actions span {
+  margin: 0 10px;
+  color: #333;
+}
+
+.remove-button {
+  background-color: #ff4136 !important;
+  color: white !important;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #c71585;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.clear-cart-button,
+.checkout-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.clear-cart-button {
+  background-color: #ff4136;
+  color: white;
+}
+
+.checkout-button {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.clear-cart-button:hover,
+.checkout-button:hover {
+  background-color: #c71585;
+  color: white;
+}
+
+/* Tambahkan ini untuk memastikan teks dalam cart terlihat */
+.cart p {
+  color: #333;
+}
